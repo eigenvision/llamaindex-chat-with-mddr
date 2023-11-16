@@ -15,7 +15,7 @@ st.write("[Download the full report](https://www.microsoft.com/en-us/security/se
          
 if "messages" not in st.session_state.keys(): # Initialize the chat messages history
     st.session_state.messages = [
-        {"role": "assistant", "content": "Chat with the report by asking questions about criminal and nation state cyber threat actors and how to defend against them."}
+        {"role": "assistant", "content": "Chat with the report by asking questions about criminal or nation state cyber threat actors and how to defend against them."}
     ]
 
 @st.cache_resource(show_spinner=False)
